@@ -5,9 +5,6 @@ import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 import Footer from "./components/Footer";
 
-import Vector from "./components/Vector";
-
-
 function App() {
   return (
     <div>
@@ -17,7 +14,6 @@ function App() {
       <About/>
       <Skill/>
       <Projects />
-      
       <Footer/>
       
       
