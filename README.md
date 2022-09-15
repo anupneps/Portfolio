@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is Anup Nepal's portfolio website built using React, styled with Tailwind and deployed in Netlify.
 
 ## Available Scripts
 
