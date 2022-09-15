@@ -47,7 +47,7 @@ const nav = [
           
       </div>
       
-      <ul className= {!burgerIcon ? 'hidden':' absolute top-0 left-0 w-full h-screen bg-slate-400 flex flex-col justify-center items-center'} >
+      <ul className= {!burgerIcon ? 'hidden':' absolute top-0 left-0 w-full h-[50vh] bg-slate-200 flex flex-col justify-center items-center'} >
 
         {nav.map(({id, navName, navTitle})=>(
           <li key={id} className='py-2 text-2xl'><Link onClick={handleClick} to = {navName} smooth ={true} duration={500}>{navTitle}</Link></li>
