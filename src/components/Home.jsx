@@ -31,7 +31,7 @@ const Home = () => {
 
           <div className='flex justify-start mt-10  '>
 
-              <a  href="http://github.com" target="_blank" rel="noreferrer noopener"><FaGithub className='text-4xl bg-gradient-to-r  bg-black rounded-md text-white mx-4 p-1 '/></a>
+              <a  href="https://github.com/anupneps" target="_blank" rel="noreferrer noopener"><FaGithub className='text-4xl bg-gradient-to-r  bg-black rounded-md text-white mx-4 p-1 '/></a>
            
               <a  href="https://www.linkedin.com/in/anup-nepal-33b53b2a/" target="_blank" rel="noreferrer noopener"><FaLinkedin className='text-4xl  bg-gradient-to-r bg-black rounded-md text-white mx-4 p-1' /></a>
 
