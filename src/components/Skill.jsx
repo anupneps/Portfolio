@@ -75,12 +75,12 @@ const Skill = () => {
                <p className='text-5xl text-[orange] font-[Poppins]  sm:mt-20 font-bold'>Technical Skills</p>
             </div>
 
-            <div className='w-max  grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-12 place-items-center mt-10 sm:mt-20 font-bold '>
+            <div className='w-max grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-12 place-items-center mt-10 sm:mt-20 font-bold '>
 
                 {iconImage.map(({id, iconname, src, alt })=>(
 
-                <div key={id} className='flex flex-col items-center justify-center w-[150px] h-[150px] text-2xl shadow-md shadow-[orange] bg-white rounded-full hover:scale-110 duration-500 '>
-                    <img src={src} alt={alt} />
+                <div key={id} className='flex flex-col items-center justify-center w-[100px] h-[100px]  sm:w-[150px] sm:h-[150px] sm:text-2xl shadow-md shadow-[orange] bg-white rounded-full hover:scale-110 duration-500 '>
+                    <img className='w-[48px] h-[48px] sm:w-[96px] sm:h-[96px] ' src={src} alt={alt} />
                     <p className=' text-[black] '>{iconname}</p>
                 </div>
 
